@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "text-light": "#FFFFFF",
+    "text-dark": "#0B4F6C",
+    "gray-light": "#FAFAFA",
+    "gray": "#E5E5E5",
+    "gray-dark": "#9E9E9E",
+    "green-light": "#C2F2DD",
+    "green": "#22A864",
+    "green-dark": "#03874D"
+  },
+  "typography": {
+    "font-family": "Roboto"
+  }
+}
