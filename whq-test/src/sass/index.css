@@ -46,7 +46,6 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  margin-left: 13px;
 }
 .alerts .alerts-header .alert-time {
   display: flex;
@@ -69,8 +68,6 @@
   display: flex;
   justify-content: space-between;
   width: 530px;
-  margin-left: 13px;
-  margin-bottom: 25px;
 }
 .alerts .exc-icon {
   display: flex;
