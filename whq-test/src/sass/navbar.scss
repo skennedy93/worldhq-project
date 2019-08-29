@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    color: #b1e8d0;
+    background-color: #02874c;
+    padding: 18px;
+    justify-content: space-between;
+    .options{
+        display: flex;
+        justify-content: space-evenly;
+        width: 330px;
+        .nav-link{
+            &:hover {
+                cursor: pointer;
+                color: white;
+              }
+        }
+    }
+    .nav-container{
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+    }
+    .icons{
+        width: 60px;
+        justify-content: space-between;
+        display: flex;
+        margin-right: 25px;
+    }
+}

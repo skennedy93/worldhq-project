@@ -1,0 +1,16 @@
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+.second-line{
+    margin-top: 20px;
+    margin-right: 10px;
+    
+    font-weight: bold;
+    .customize-text{
+        margin-top: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        color: #02874c;
+    }
+}

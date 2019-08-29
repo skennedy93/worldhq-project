@@ -1,0 +1,253 @@
+.navbar {
+  display: flex;
+  color: #b1e8d0;
+  background-color: #02874c;
+  padding: 18px;
+  justify-content: space-between;
+}
+.navbar .options {
+  display: flex;
+  justify-content: space-evenly;
+  width: 330px;
+}
+.navbar .options .nav-link:hover {
+  cursor: pointer;
+  color: white;
+}
+.navbar .nav-container {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+.navbar .icons {
+  width: 60px;
+  justify-content: space-between;
+  display: flex;
+  margin-right: 25px;
+}
+
+.alerts {
+  display: flex;
+  background-color: white;
+  width: 45%;
+  flex-direction: column;
+  padding: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.alerts .table-row {
+  display: flex;
+}
+.alerts .table-row .table-data {
+  display: flex;
+  flex-direction: column;
+}
+.alerts .alerts-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-left: 13px;
+}
+.alerts .alerts-header .alert-time {
+  display: flex;
+  color: #02874c;
+}
+.alerts .alerts-header .alerts-section {
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+  margin-bottom: 25px;
+}
+.alerts .alerts-header .alerts-section .time-title {
+  margin-right: 10px;
+}
+.alerts .alerts-column {
+  margin-top: 80px;
+  margin-left: 11px;
+}
+.alerts .alert-row {
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+  margin-left: 13px;
+  margin-bottom: 25px;
+}
+.alerts .exc-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+}
+.alerts .selector-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.alerts .selector-container .items {
+  display: flex;
+}
+.alerts .selector-container .selected-page {
+  color: #02874c;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.alerts .selector-container .side-carrot {
+  cursor: pointer;
+  transform: rotate(-90deg);
+}
+
+.highlights {
+  margin-left: 15px;
+  background-color: white;
+  margin-right: 15px;
+  margin-top: 25px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.highlights .highlights-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.highlights .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  background-color: white;
+  padding: 8px;
+  margin-left: 15px;
+  margin-top: 20px;
+  height: 25px;
+}
+.searchbar .search-text {
+  color: #ababab;
+  margin-top: 5px;
+}
+
+.widgets {
+  border: 2px #ababab;
+  border-style: dashed;
+  border-radius: 2%;
+  width: 45%;
+  margin-right: 15px;
+  height: 335px;
+}
+.widgets .widgets-column {
+  margin-top: 130px;
+}
+.widgets .widgets-icons {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.widgets .button {
+  border: 1px solid #02874c;
+  color: #02874c;
+  width: 100px;
+  background-color: inherit;
+  transition: 0.3s;
+  font-weight: bold;
+  border-radius: 1%;
+  padding: 10px;
+  margin: auto;
+}
+.widgets .button:hover {
+  cursor: pointer;
+  background: #02874c;
+  color: white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-line {
+  margin-top: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.second-line .customize-text {
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #02874c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+}
+
+.app {
+  margin-bottom: 30px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.sections {
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 47px;
+  margin-left: 10px;
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.not-colored {
+  color: #ababab;
+  font-weight: bold;
+}
+
+.colored {
+  color: #3f748b;
+  font-weight: bold;
+}
+
+.section-bottom {
+  color: #ababab;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+table tr {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+table td {
+  padding: 15px;
+  text-align: left;
+}
+table th {
+  padding: 15px;
+  text-align: left;
+}
+
+/*# sourceMappingURL=index.css.map */
